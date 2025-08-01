@@ -34,7 +34,7 @@ void setup()
 void loop()
 {
   //set seeBallFlag by seeing if husklens sees a block with ID of 1
-  husklens.requestBlocks(1);
+  huskylens.requestBlocks(1);
   if(huskylens.available())
   {
     seeBallFlag = 1;
